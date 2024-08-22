@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+
+<body>
+    <header>
+        <h1>COCIOABA DE ÎNVĂȚAT</h1>
+        <h2>Contact</h2>
+        <nav>
+            <ul>
+                <li><a href="index.html">Acasă</a></li>
+                <li><a href="lectie1.html">Introducere în HTML</a></li>
+                <li><a href="lectie2.html">Structura HTML</a></li>
+                <li><a href="lectie3.html">Etichete HTML</a></li>
+                <li><a href="quiz.html">Test de evaluare</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="cheatsheet.html">Cheat Sheet</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h3>Contactează-ne</h3>
+            <p>Pentru orice întrebări sau sugestii, te rugăm să completezi formularul de mai jos. Vom reveni la tine cât mai curând posibil.</p>
+
+            <form action="mailto:example@example.com" method="post" enctype="text/plain">
+                <fieldset>
+                    <legend>Informații de contact</legend>
+                    
+                    <label for="name">Nume:</label><br>
+                    <input type="text" id="name" name="name" required><br><br>
+                    
+                    <label for="email">Adresă de email:</label><br>
+                    <input type="email" id="email" name="email" required><br><br>
+                    
+                    <label for="message">Mesaj:</label><br>
+                    <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+                    
+                    <button type="submit">Trimite mesajul</button>
+                </fieldset>
+            </form>
+
+            <p><strong>Adresa noastră:</strong></p>
+            <address>
+                Strada Soarelui, Nr. 123, <br>
+                Oraș Cluj-Napoca, Județ Cluj, Cod Poștal 40441, România
+            </address>
+
+            <p><strong>Telefon:</strong> +40 123 456 789</p>
+            <p><strong>Email:</strong> <a href="mailto:example@example.com">cocioabadeinvatat@gmail.com</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 COCIOABA DE ÎNVĂȚAT. Toate drepturile rezervate.</p>
+    </footer>
+</body>
+
+</html>
