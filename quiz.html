@@ -121,9 +121,8 @@
                 <button type="submit">Trimite răspunsurile</button>
             </form>
 
-            <p><strong>Note:</strong> Această pagină nu va evalua răspunsurile automat. După ce selectezi răspunsurile, verifică mai jos dacă ai răspuns corect:</p>
-            <button onclick="document.getElementById('answers').style.display='block'">Vezi răspunsurile corecte</button>
-            <div id="answers" style="display:none;">
+            <details>
+                <summary>Vezi răspunsurile corecte</summary>
                 <ul>
                     <li>1. &lt;p&gt;</li>
                     <li>2. &lt;img src="imagine.jpg"&gt;</li>
@@ -131,7 +130,7 @@
                     <li>4. &lt;ol&gt;</li>
                     <li>5. &lt;h1&gt;</li>
                 </ul>
-            </div>
+            </details>
         </section>
     </main>
 
