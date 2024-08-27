@@ -113,14 +113,17 @@
                 <button type="submit">Trimite răspunsurile</button>
             </form>
 
-            <p><strong>Note:</strong> Această pagină nu va evalua răspunsurile automat. Răspunsurile corecte sunt:</p>
-            <ul>
-                <li>1. &lt;p&gt;</li>
-                <li>2. &lt;img src="imagine.jpg"&gt;</li>
-                <li>3. Pentru a adăuga un link</li>
-                <li>4. &lt;ol&gt;</li>
-                <li>5. &lt;h1&gt;</li>
-            </ul>
+            <p><strong>Note:</strong> Această pagină nu va evalua răspunsurile automat. După ce selectezi răspunsurile, verifică mai jos dacă ai răspuns corect:</p>
+            <button onclick="document.getElementById('answers').style.display='block'">Vezi răspunsurile corecte</button>
+            <div id="answers" style="display:none;">
+                <ul>
+                    <li>1. &lt;p&gt;</li>
+                    <li>2. &lt;img src="imagine.jpg"&gt;</li>
+                    <li>3. Pentru a adăuga un link</li>
+                    <li>4. &lt;ol&gt;</li>
+                    <li>5. &lt;h1&gt;</li>
+                </ul>
+            </div>
         </section>
     </main>
 
