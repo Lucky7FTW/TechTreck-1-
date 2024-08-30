@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     padding: 0;
@@ -50,9 +49,11 @@ nav ul {
     display: flex;
     justify-content: center;
     padding: 10px 0;
+    margin: 0;
 }
 
 nav ul li {
+    position: relative;
     margin: 0 10px;
 }
 
@@ -70,6 +71,44 @@ nav ul li a {
 nav ul li a:hover {
     background-color: #ffffff;
     box-shadow: 0 4px 8px rgba(134, 72, 210, 0.4);
+}
+
+nav .dropdown {
+    position: relative;
+}
+
+nav .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #7b1fa2;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    min-width: 200px;
+    z-index: 1000;
+}
+
+nav .dropdown-menu li {
+    margin: 0;
+}
+
+nav .dropdown-menu li a {
+    display: block;
+    padding: 10px 15px;
+    color: #fff;
+    font-size: 14px;
+    text-transform: none;
+    border-bottom: 1px solid #6a1b9a;
+    transition: background-color 0.3s ease;
+}
+
+nav .dropdown-menu li a:hover {
+    background-color: #6a1b9a;
+}
+
+nav .dropdown:hover .dropdown-menu {
+    display: block;
 }
 
 main {
@@ -117,10 +156,9 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Footer styling with specific targeting for paragraphs */
 footer {
     background: #7b1fa2;
-    color: #fff; /* Ensures all direct text in the footer is white */
+    color: #fff;
     text-align: center;
     padding: 15px;
     font-size: 14px;
@@ -139,5 +177,3 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
-
-
