@@ -182,14 +182,32 @@ footer a:hover {
     color: #333; 
 } 
 
-footer.example-footer {
+footer.example-footer{
     background-color: #ffffff;
+    background: #ffffff !important;
     padding: 10px;
-    color: #333 ;
+    color: #333;
 }
+
+footer.example-footer p{
+    color: #333;
+    background-color: #ffffff;
+    background: #ffffff !important;
+    padding: 10px;  
+}
+
+footer.example-footer h4{
+    color: #333;
+    background-color: #ffffff;
+    background: #ffffff !important;
+    padding: 10px;  
+}
+
 
 .example-nav {
     background-color: #ffffff; 
     padding: 10px;
     color: #333;
 }
+
+
