@@ -138,7 +138,7 @@ h3 {
     display: inline-block;
     padding-bottom: 5px;
 }
-
+    
 p {
     margin: 10px 0 20px;
     font-size: 16px;
@@ -166,14 +166,30 @@ footer {
 }
 
 footer p {
-    color: #fff !important;
+    color: #fff;
 }
 
-footer a {
-    color: #fff;
-    text-decoration: none;
-}
 
 footer a:hover {
     text-decoration: underline;
+}
+
+
+.example-header {
+    background-color: #ffffff;
+    background: #ffffff;
+    padding: 10px;
+    color: #333; 
+} 
+
+footer.example-footer {
+    background-color: #ffffff;
+    padding: 10px;
+    color: #333 ;
+}
+
+.example-nav {
+    background-color: #ffffff; 
+    padding: 10px;
+    color: #333;
 }
