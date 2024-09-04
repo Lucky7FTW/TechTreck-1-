@@ -178,15 +178,18 @@ footer a:hover {
 .example-header {
     background-color: #ffffff;
     background: #ffffff;
-    padding: 10px;
-    color: #333; 
+    color: #333;
+    text-align:left;
+    padding: 0px;
 } 
 
 footer.example-footer{
     background-color: #ffffff;
     background: #ffffff !important;
-    padding: 10px;
     color: #333;
+    box-shadow: 0 0px 0px rgba(255, 255, 255, 0);
+    text-align:left;
+    padding: 0px;
     
 }
 
@@ -194,24 +197,27 @@ footer.example-footer p{
     color: #333;
     background-color: #ffffff;
     background: #ffffff !important;
-    padding: 10px;  
-    box-shadow: 0 0px 0px rgba(255, 255, 255, 0)
+    box-shadow: 0 0px 0px rgba(255, 255, 255, 0);
+    text-align:left;
+    padding: 0px;
 }
 
 footer.example-footer h4{
     color: #333;
     background-color: #ffffff;
     background: #ffffff !important;
-    padding: 10px;
-    box-shadow: 0 0px 0px rgba(255, 255, 255, 0)
+    box-shadow: 0 0px 0px rgba(255, 255, 255, 0);
+    text-align:left;
+    padding: 0px;
 }
 
 
 .example-nav {
     background-color: #ffffff; 
-    padding: 10px;
+    padding: 0px;
     color: #333;
     box-shadow: 0 0px 0px rgba(255, 255, 255, 0);
+    text-align:left;
 }
 
 
