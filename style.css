@@ -40,8 +40,6 @@ nav {
     background-color: #7b1fa2;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     position: sticky;
-    top: 0;
-    z-index: 1000;
 }
 
 nav ul {
@@ -320,41 +318,5 @@ code {
 
     .styled-form {
         max-width: 90%;
-    }
-}
-
-@media (max-width: 480px) {
-    header h1 {
-        font-size: 24px;
-    }
-
-    header h2 {
-        font-size: 14px;
-    }
-
-    nav ul li a {
-        padding: 8px 10px;
-        font-size: 14px;
-    }
-
-    section {
-        padding: 15px;
-    }
-
-    h3 {
-        font-size: 20px;
-    }
-
-    p {
-        font-size: 14px;
-    }
-
-    .styled-form {
-        padding: 15px;
-    }
-
-    .styled-form button {
-        padding: 8px;
-        font-size: 14px;
     }
 }
