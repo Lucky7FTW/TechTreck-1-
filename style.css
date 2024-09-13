@@ -40,6 +40,7 @@ nav {
     background-color: #7b1fa2;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     position: sticky;
+    z-index: 1000; /* Ensures the nav stays on top */
 }
 
 nav ul {
@@ -84,7 +85,7 @@ nav .dropdown-menu {
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     min-width: 200px;
-    z-index: 1000;
+    z-index: 1001; /* Ensures dropdown is above other content */
 }
 
 nav .dropdown-menu li {
@@ -319,4 +320,13 @@ code {
     .styled-form {
         max-width: 90%;
     }
+}
+
+#announcement {
+    font-size: 18px;
+    color: #ffffff;
+}
+
+#questions {
+    color: #ffffff;
 }
